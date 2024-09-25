@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background:url(photo.webp);
+    background-size: cover;
+    
+}
+.container{
+    background:url(bbb.jpg) ;
+    background-size: cover;
+    position: absolute;
+    left: 40%;
+    top: 190px;
+}
+.container h1{
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(220, 20, 193);
+    margin-bottom: 2px;
+}
+.box{
+    display: flex;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid rgb(255, 0, 212);
+}
+.box input{
+    width: 100;
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(247, 0, 255);
+    margin-left: 10px;
+font-size: 15px;
+margin-bottom: 3px;
+}
+.btn{
+
+
+padding: 3px;
+border-radius:26px;
+width:70px;
+outline:none;
+background: none;
+border: 2px solid rgb(255, 0, 212);
+color: blueviolet;
+}
+.btn:hover{
+    color: rgb(226, 43, 180);
+    background-color: rgb(165, 42, 165);
+}
